@@ -5,7 +5,7 @@ Ada kalanya bot mengalami error, dikarenakan module yang belum sepenuhnya work f
 Module update menyesuaikan kebijakan WhatsApp.
 
 # Update Bot V2
-:::: NEW ::::
+:::: NEW ::::<br/>
 ✦✧✦✧ Auto Update Otomatis dari SpreadSheet<br/>
 ✦✧✦✧ Bisa Setting ketika Online<br/>
 ✦✧✦✧ Tambahan Fitur Mode Libur / Di Luar Jam Kerja<br/>
