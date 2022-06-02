@@ -6,7 +6,7 @@ Module update menyesuaikan kebijakan WhatsApp.
 
 # Update Bot V2
 :::: NEW :::
->>
+
 ✦✧✦✧ Auto Update Otomatis dari SpreadSheet
 ✦✧✦✧ Bisa Setting ketika Online
 ✦✧✦✧ Tambahan Fitur Mode Libur / Di Luar Jam Kerja
