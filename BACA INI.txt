@@ -1,0 +1,96 @@
+===================
+Termux 
+===================
+pkg update && pkg upgrade
+pkg install git
+termux-setup-storage
+===================
+
+
+===================
+copy atau remove delete pindah
+===================
+cd .. (kembali ke direktori sebelumnya)
+cd $HOME (ke direktori home)
+cd /sdcard (ke direktori sdcard)
+rm -rf (hapus file/folder)
+cp -r (copy folder)
+mv (untuk mengganti nama file atau pindah ke direktori lain)
+
+contoh :
+cd /sdcard
+cd $HOME
+cd mywabot
+cp -r mywabot
+rm -rf mywabot
+mv mywabot wabot
+mv mywabot /sdcard/download
+===================
+
+
+===================
+penggunaan git
+===================
+git init (membuat git baru)
+git add (data) menambahkan ke git
+git commit (menambahkan deskripsi)
+git push (deploy git)
+git branch (menampilkan branch)
+git --help (panduan git)
+===================
+
+
+===================
+Install CLI heroku NODEJS
+===================
+pkg update && pkg upgrade
+pkg install nodejs
+npm i -g heroku atau npm install -g heroku
+===================
+
+
+===================
+Install CLI heroku yarn
+===================
+pkg update && pkg upgrade
+pkg install yarn
+yarn add heroku
+===================
+
+
+===================
+untuk yang belum pernah deploy heroku
+===================
+heroku login
+cd (Project nya) 
+git add *
+git commit -m "(deskrip)"
+heroku git:remote -a (project apps)
+git push heroku (branch)
+===================
+
+
+===================
+Ini kalo ada masalah di commit bisa pindahin branch nya ke new branch
+===================
+git checkout -b main //new branch main
+git branch -D master //del branch master
+git branch //list branch
+===================
+
+
+===================
+//new Deployed / atau untuk yg sudah pernah deploy
+===================
+git push heroku HEAD:(branch)
+===================
+
+
+===================
+buildpack heroku untuk whatsapp bot
+===================
+heroku/nodejs
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+====================
+

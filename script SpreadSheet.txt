@@ -1,0 +1,52 @@
+======================================
+Buka SpreadSheet Kemudian Membuat SpreadSheet baru
+Untuk nama folder bebas
+untuk nama Sheet kalian ganti ke Message
+jika nama Sheet bukan Message , maka di script ganti Message ke nama sheet kalian
+======================================
+kemudian kalian buka sheet di website
+pilih ektensi kemudian buka app script
+pilih editor baru 
+kemudian paste script nya
+======================================
+pilih terapkan dan deploy ke web
+jangan lupa ke semua orang atau siapa saja agar link bisa dipakai
+salin link hasil deploy web kalian dan paste di config whatsapp bot
+======================================
+
+======================================
+untuk id silahkan isi dengan formula array >>
+
+=ARRAYFORMULA({"id";row(A2:A301)-1})
+======================================
+
+======================================
+sisanya kalian bisa copy dari link ini >>
+
+https://docs.google.com/spreadsheets/d/1q74il9VmYL6Xdu3I-nHS1tujKnOMq-S0skHIfXV4S8I/edit?usp=drivesdk
+======================================
+
+
+======================================
+Script nya >>
+======================================
+function doGet(e){
+var ss = SpreadsheetApp.getActive();
+var sheet = ss.getSheetByName('Message');
+var data = [];
+var rlen = sheet.getLastRow();
+var clen = sheet.getLastColumn();
+var rows = sheet.getRange(1, 1, rlen, clen).getValues();
+for(var i=1; i < rows.length ; i++){
+var datarow = rows[i];
+var record = {};
+for(var j=0; j < clen ; j++){
+record[rows[0][j]] = datarow[j];
+}
+data.push(record);
+}
+console.log(data);
+var result = JSON.stringify(data);
+return ContentService.createTextOutput(result).setMimeType(ContentService.MimeType.JSON);
+}
+======================================

@@ -1,0 +1,12 @@
+======================================
+Install di termux
+======================================
+pkg update && pkg upgrade
+pkg install git nodejs ffmpeg yarn
+termux-setup-storage 
+https://github.com/empat89/mywabot
+cd mywabot
+npm install atau yarn
+
+npm untuk install via nodejs, dan yarn install via yarn
+======================================
