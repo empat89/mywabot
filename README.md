@@ -1,12 +1,11 @@
-# mywabot
+# mywabot (Empat-89)
 Script Base ini memakai Base Hisoka https://github.com/DikaArdnt/Hisoka-Morou
 Tidak ada Jaminan selamanya baik-baik saja.
 Ada kalanya bot mengalami error, dikarenakan module yang belum sepenuhnya work for anytime.
 Module update menyesuaikan kebijakan WhatsApp.
 
 # Update Bot V2
-:::: NEW :::
-
+:::: NEW ::::
 ✦✧✦✧ Auto Update Otomatis dari SpreadSheet<br/>
 ✦✧✦✧ Bisa Setting ketika Online<br/>
 ✦✧✦✧ Tambahan Fitur Mode Libur / Di Luar Jam Kerja<br/>
