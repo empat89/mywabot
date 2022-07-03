@@ -53,10 +53,13 @@ node index.js
 ## Edit Config
 `./config.js`
 ```ts
-global.projectId = 'mywabot-352516'
-global.heroku = 'Your_Heroku_Apps_Link'
-global.sheet = 'Your_Spread_Sheet_Link'
-global.owner = ['62xxxxxxxxxx']
+global.projectId = 'mywabot-352516'  //default
+global.heroku = 'Your_Heroku_Apps_Link' //if not deployed on heroku, use http://google.com (http ONLY, not https)
+global.sheet = 'Your_Spread_Sheet_Link' //please add your google sheet link with script
+global.owner = ['62xxxxxxxxxx'] //your number, only valid for 1 number
+
+
+
 ```
 ## Edit Procfile
 `./Procfile`
