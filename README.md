@@ -61,6 +61,17 @@ global.owner = ['62xxxxxxxxxx'] //your number, only valid for 1 number
 
 
 ```
+
+`./settings.js`
+```ts
+//visit link >> https://gist.github.com/diogocapela/12c6617fc87607d11fd62d2a4f42b02a
+global.timeEn = 'Europe/London'
+global.timeIn = 'Asia/Jakarta'
+global.greeting = false
+global.typing = false
+global.read = false
+global.away = false 
+```
 ## Edit Procfile
 `./Procfile`
 ```ts
@@ -106,7 +117,7 @@ worker: npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs //Without Mon
 
 ## GUIDES | PANDUAN
 <p align="center">
-<a href="https://youtube.com/channel/UCVmrkgbpEeILFUcwx7ZC0uA7"><img src="https://i.ibb.co/mzmV1H9/20220703-001713-0000.png" alt="20220703-001713-0000" border="0"></a>
+<a href="https://youtube.com/channel/UCVmrkgbpEeILFUcwx7ZC0uA"><img src="https://i.ibb.co/mzmV1H9/20220703-001713-0000.png" alt="20220703-001713-0000" border="0"></a>
 <a href="https://ibb.co/yRHHYmV"><img src="https://i.ibb.co/CtRRMpW/20220701-203804-0000.png" alt="20220701-203804-0000" border="0" /></a>
 <a href="https://ibb.co/ZMzfvcZ"><img src="https://i.ibb.co/Jsjc8rh/20220701-205854-0000.png" alt="20220701-205854-0000" border="0"></a>
 <a href="https://ibb.co/7CfSYmH"><img src="https://i.ibb.co/pw710Fg/20220701-210854-0000.png" alt="20220701-210854-0000" border="0"></a>
