@@ -12,7 +12,7 @@ Module update menyesuaikan kebijakan WhatsApp.<br/>
 * Tambahan Fitur Salam / Greeting Messages<br/>
 * Add Mongo DB <br/>
 * Support Heroku <br/>
-* Futur Lapor / Report <br/>
+* Fitur Lapor / Report <br/>
 * FIX some error !!
 
 ## Perintah | Command
